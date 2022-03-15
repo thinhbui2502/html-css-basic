@@ -1,0 +1,56 @@
+.container {
+    width: 900px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.searchInput{
+    border: none;
+    border-bottom: 1px solid #0003f3;
+    text-align: center;
+}
+
+.myButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /*font-size: 16px;*/
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+    border-radius: 5px;
+    width: 60px;
+    font-weight: bold;
+}
+
+.readBtn {
+    background-color: #dddddd;
+    color: black;
+    font-weight: bold;
+}
+
+.deleteBtn {
+    background-color: #d16257;
+}
+
+.searchBtn {
+    background-color: #0003f3;
+}
